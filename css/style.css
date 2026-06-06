@@ -589,3 +589,249 @@ img {
         transform: translateY(0);
     }
 }
+@media (max-width: 1024px) {
+    .photo-line {
+        width: 100%;
+        height: auto;
+    }
+    
+    .text-box {
+        width: 80%;
+        height: auto;
+        float: none;
+        margin: 20px auto;
+    }
+    
+    .img-right-foto, .img-right-foto1 {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        float: none;
+    }
+    
+    .flex-row {
+        flex-direction: column;
+    }
+    
+    .overlay-icon {
+        position: static;
+        margin: -50px auto 0;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .photo-kruug {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 40px !important;
+    }
+    
+    .h1-zagg {
+        font-size: 36px !important;
+    }
+    
+    .h1-zag {
+        font-size: 28px !important;
+    }
+    
+    h2 {
+        font-size: 20px !important;
+    }
+    
+    h3 {
+        font-size: 18px !important;
+        width: 90%;
+    }
+    
+
+    .photo-line {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .photo-line img {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+    }
+    
+    p, .p-right-text {
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+    
+    .text-box {
+        width: 95%;
+        padding: 15px;
+        margin: 20px auto;
+        height: auto;
+    }
+    
+    .text-box p {
+        font-size: 14px;
+    }
+    
+  
+    body > div[style*="display: flex"] {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    
+   
+    .img-right-foto, .img-right-foto1, .img-left-foto {
+        width: 90% !important;
+        height: auto !important;
+        margin: 20px auto !important;
+        float: none !important;
+    }
+    
+    .flex-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .photo-kruug {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .overlay-icon {
+        position: static;
+        width: 120px;
+        height: 120px;
+        margin: -40px auto 0;
+    }
+    
+    /* Плейлист */
+    .playlist-section {
+        width: 95% !important;
+        height: auto !important;
+        padding: 15px;
+        margin: 20px auto;
+    }
+    
+    .playlist-container {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    .player-controls {
+        flex-direction: column;
+    }
+    
+    .stop-btn {
+        width: 100%;
+    }
+    
+    .track {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .track-info {
+        flex: 2;
+    }
+    
+    .track-duration {
+        margin: 0 5px;
+    }
+    
+    .playlist-photo {
+        display: none;
+    }
+    
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .card-square {
+        width: 85%;
+        height: auto;
+        min-height: 200px;
+    }
+    
+    .p-reg {
+        margin: 0 0 20px 0;
+    }
+    
+    /* Футер */
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .footer-separator {
+        display: none;
+    }
+    
+    .footer-link {
+        margin: 0 5px;
+    }
+    
+    .footer-copy {
+        font-size: 10px;
+    }
+    
+    /* Hero цитата */
+    .hero-quote {
+        min-height: auto;
+        padding: 15px 10px;
+    }
+    
+    .quote-text {
+        font-size: 18px;
+    }
+    
+    .quote-author {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px !important;
+    }
+    
+    .h1-zagg {
+        font-size: 26px !important;
+    }
+    
+    .h1-zag {
+        font-size: 22px !important;
+    }
+    
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    .track {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .track-info {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .play-btn {
+        width: 44px;
+        height: 44px;
+    }
+}
